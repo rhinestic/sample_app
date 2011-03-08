@@ -9,6 +9,7 @@ SampleApp::Application.routes.draw do
 	match '/contact', :to => 'pages#contact'	
 	match '/about', :to => 'pages#about'
 	match '/help', :to => 'pages#help'
+	match '/signup', :to => 'users#new'
 
   # Keep in mind you can assign values other than :controller and :action
 
